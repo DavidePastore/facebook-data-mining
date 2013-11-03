@@ -1,10 +1,13 @@
 Facebook Data Mining in R
+=========================
 
 Introduction
+------------
 
 This group of scripts was inspired by a series of posts on how to data mine Facebook data. The scripts allow you to connect to the Facebook graph API and download data associated with an individual, their posts, friends, etc. and then analyse and graaph these in various ways.
 
 About The Script
+----------------
 
 The scripts are broken up into a number of groups as follows:
 
@@ -16,18 +19,20 @@ The scripts are broken up into a number of groups as follows:
 All the other scripts called from these four scripts
 
 Getting Started
+---------------
 
  * First you need an access token. To do this you need to visit https://developers.facebook.com/tools/explorer', 
    login and click "Get access token" and then paste this into the appropriate place in AccessToken.R
 
  * Next from within R (or RStudio - http://rstudio.org, my personal preferred method) run the following command:
 
-   source("Setup.R")
-
-	This will ensure that all the required packages from the demo and installed and loaded (by calling Requirements.R)
-	and that all the shared functions that are required are created (by calling Functions.R) 
+	    source("Setup.R")
+	
+   This will ensure that all the required packages from the demo and installed and loaded (by calling Requirements.R)
+   and that all the shared functions that are required are created (by calling Functions.R) 
 	
 The Demos
+---------
 
 At the three demos listed above can be called with:
 
@@ -46,9 +51,14 @@ Each of these will call some of the following functions:
 
 
 List of source URLs used in the development of these scripts
+------------------------------------------------------------
 
 http://romainfrancois.blog.free.fr/index.php?post/2012/01/15/Crawling-facebook-with-R
+
 http://blog.revolutionanalytics.com/2012/01/visualize-your-facebook-friends-network-with-r.html
+
 http://applyr.blogspot.co.uk/2012/01/mining-facebook-data-most-liked-status.html?spref=tw
+
 https://github.com/sciruela/facebookFriends
+
 http://google-styleguide.googlecode.com/svn/trunk/google-r-style.html
